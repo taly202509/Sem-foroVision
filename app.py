@@ -15,7 +15,7 @@ mensajes = {
     "ROJO":        "🔴 LUZ ROJA — DETENTE. No puedes cruzar.",
     "AMARILLO":    "🟡 LUZ AMARILLA — PRECAUCIÓN. Prepárate para detenerte.",
     "VERDE":       "🟢 LUZ VERDE — PUEDES PASAR. Cruza con cuidado.",
-    "DESCONOCIDO": "⚪ No se detectó semáforo. Apunta mejor la cámara.",
+    "DESCONOCIDO": "⚪ No se identificó el color del semáforo. Apunta mejor la cámara.",
 }
 
 
@@ -115,4 +115,5 @@ if foto is not None:
     st.write("Píxeles detectados:")
     st.write("Rojo:     " + str(pixeles_rojo))
     st.write("Amarillo: " + str(pixeles_amarillo))
+
     st.write("Verde:    " + str(pixeles_verde))
